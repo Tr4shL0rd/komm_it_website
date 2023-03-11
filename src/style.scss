@@ -1,0 +1,49 @@
+$normal_text: rgb(255, 255, 255);
+$page_background_color: #282828;
+$content_background_color: grey;
+
+body {
+    background-color: $page_background_color;
+  
+}
+
+#short-date {
+    color: $normal_text;
+    width: auto;
+    float: right;
+}
+
+#todays-date {
+    color: $normal_text;
+}
+
+#nav-bar-link {
+    color: $normal_text;
+}
+
+#nav_bar {
+    background-color: $content_background_color;
+}
+
+#nav_bar_row {
+    height: 50px;
+}
+
+#header {
+    background-color: $content_background_color;
+}
+#header-image {
+    width: 100%;
+    display: flex;
+}
+
+#content {
+    background-color: #444444;
+    height: 100%;
+    position: inherit;
+    bottom: 0px;
+}
+
+#content_text {
+    color: $normal_text;
+}

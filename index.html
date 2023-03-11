@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="/src/main.ts" type="module" defer></script>
+        <title>Vite + TS</title>
+    </head>
+    <body onload="getBetterShortDate()">
+        <div id="page">
+            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                <tr height="250">
+                    <td></td>
+
+                    <td id="header" width="750">
+                        <img
+                            src="/image/layered-steps-haikei_nav_bar_color.svg"
+                            id="header-image"
+                        /><!--Fill entire header-->
+                    </td>
+
+                    <td></td>
+                </tr>
+
+                <tr id="nav_bar_row">
+                    <td></td>
+
+                    <td id="nav_bar">
+                        &nbsp;<a
+                            id="nav-bar-link"
+                            href="https://www.youtube.com"
+                            >Youtube</a
+                        >
+                        |
+                        <a id="nav-bar-link" href="https://www.google.com"
+                            >Google</a
+                        >
+                        |
+                        <a id="nav-bar-link" href="https://www.last.fm"
+                            >Last.fm</a
+                        >
+                        |
+                        <a
+                            id="nav-bar-link"
+                            href="https://www.github.com/tr4shl0rd"
+                            >Github</a
+                        >
+                        |
+                        <a id="short-date">SHORT_DATE</a>
+                    </td>
+
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+
+                    <td id="content">
+                        <center>
+                            <p id="todays-date">LONG_DATE</p>
+                        </center>
+                    </td>
+
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
